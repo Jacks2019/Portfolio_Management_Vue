@@ -63,16 +63,16 @@ export const constantRoutes = [
     meta: { title: 'Market', icon: 'el-icon-s-help' },
     children: [
       {
-        path: 'table',
-        name: 'Table',
-        component: () => import('@/views/table/index'),
-        meta: { title: 'Stock Table', icon: 'table' }
+        path: 'stock',
+        name: 'Stock',
+        component: () => import('@/views/stock/index'),
+        meta: { title: 'Stock', icon: 'table' }
       },
       {
-        path: 'fundtable',
-        name: 'FundTable',
-        component: () => import('@/views/table/index'),
-        meta: { title: 'Fund Table', icon: 'table' }
+        path: 'fund',
+        name: 'Fund',
+        component: () => import('@/views/fund/index'),
+        meta: { title: 'Fund', icon: 'table' }
       },
       // {
       //   path: 'tree',
