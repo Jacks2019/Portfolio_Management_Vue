@@ -100,9 +100,9 @@ export const constantRoutes = [
     path: '/nested',
     component: Layout,
     redirect: '/nested/menu1',
-    name: 'Deposit',
+    name: 'Assets',
     meta: {
-      title: 'Deposit',
+      title: 'Assets',
       icon: 'nested'
     },
     children: [
